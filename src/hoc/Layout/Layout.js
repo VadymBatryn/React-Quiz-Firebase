@@ -25,7 +25,7 @@ class Layout extends Component {
           onToggle={this.toggleMenuHandler}
           isOpen={this.state.menu}
         />
-        <main className={classes['Layout-main']}>{this.props.children}</main>
+        <main>{this.props.children}</main>
       </div>
     )
   }
